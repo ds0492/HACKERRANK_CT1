@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() 
+{
+    //3 12345678912345 a 334.23 14049.30493
+    int a; long b; char nm; float c; double d;
+    cin>>a>>b>>nm>>c>>d;
+    printf("%d \n%ld \n%c \n%.3f \n%.9lf",a,b,nm,c,d);
+    return 0;
+}
